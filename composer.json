@@ -1,5 +1,5 @@
 {
-  "name": "monaviscompte/Widget",
+  "name": "monaviscompte/widget",
   "description": "Allows to display a monaviscompte widget",
   "type": "magento2-module",
   "version": "0.0.1",

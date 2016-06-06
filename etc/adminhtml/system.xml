@@ -4,7 +4,7 @@
         <section id="mac_block_config" translate="label" type="text" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>monaviscompte</label>
             <tab>sales</tab>
-            <resource>monaviscompte_Widget::widget</resource>
+            <resource>monaviscompte_widget::widget</resource>
             <group id="mac_custom_block" translate="label" type="text" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="1">
                 <field id="mac_item_id" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Identifiant de la fiche</label>
