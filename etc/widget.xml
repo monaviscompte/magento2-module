@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ 
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Magento/Widget/etc/widget.xsd">
+	<widget id="monaviscompte_Widget" class="monaviscompte\Widget\Block\Widget">
+		<label translate="true">monaviscompte Widget</label>
+		<description>Allows to display the monaviscompte widget</description>
+	</widget>
+</widgets>
