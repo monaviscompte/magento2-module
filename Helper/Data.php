@@ -9,7 +9,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 	const MAC_PRIVATE_KEY = 'mac_block_config/mac_custom_block/mac_private_key';
  
 	public function __construct(\Magento\Framework\App\Helper\Context $context) {
-  	parent::__construct($context);
+  		parent::__construct($context);
 	}
  
 	public function getItemId()
