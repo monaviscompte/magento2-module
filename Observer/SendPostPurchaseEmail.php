@@ -49,7 +49,7 @@ class SendPostPurchaseEmail implements ObserverInterface {
 		$serializedProducts['products'][$i] = array(
 			"id" => strval($_product_id),
 			"name" => $_product->getName(),
-			"summary" => $_product->getShortDescription(),
+			"summary" => strip_tags($_product->getShortDescription()),
 			"picture" => $_image_url
 		);
 		$i++;
